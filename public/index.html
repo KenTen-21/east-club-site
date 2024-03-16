@@ -1,56 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Headers-->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Link to index.css-->
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <!--Load an icon library to show a hamburger menu (bars) on small screens-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--Title for tab name-->
+    <!--Title-->
     <title>East Computer Club</title>
-    <style>
-        body {
-            background-color: #3c763d;
-        }
-    </style>
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="index.css">
+    <!--Link to Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
-<!--Body-->
-
 <body>
-    <div>
-        <!--Header 1 and header 2-->
-        <h1>Reached: East Computer Club</h1>
-        <h2> A non-profit that serves as the ultimate equalizer for true
-            education.
-        </h2>
-    </div>
-    <!--Navigation-->
-    <!-- todo: links should only be one color. choose a design to follow either elac.edu or frontendmaster.com for the navigation -->
-    <!-- * work with elac colors -->
-    <!--Wrap the div element with a class of nav inside a label element with an id of hamburger-menu-->
-    <div class="nav">
-        <div>
-            <!--Navigates to registration-->
-            <nav>
-                <a href="registration.html">Register</a>
-            </nav>
+    <header>
+        <!--Header1-->
+        <div id="brand"><a href="/">Reached: East Computer Club</a></div>
+        <!--Navigation-->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>
+            </ul>
+        </nav>
+        <!--Mobile Menu-->
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>
+            </ul>
         </div>
-        <div>
-            <!--Navigates to Home-->
-            <nav>
-                <a href="/">Home</a>
-            </nav>
-        </div>
-        <div>
-            <!--Navigates to login-->
-            <nav>
-                <a href="login.html">Login</a>
-            </nav>
-        </div>
-    </div>
+    </header>
+    <script src="index.js"></script>
+    <!--Header2-->
+    <h2>A non-profit that serves as the ultimate equalizer for true
+        education.
+    </h2>
 </body>
-
 </html>
