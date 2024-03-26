@@ -7,7 +7,11 @@
 }
 
 body {
+<<<<<<< Updated upstream
   background: #367c2b;
+=======
+  background-image: linear-gradient(#367c2b, #86b07f 150%);
+>>>>>>> Stashed changes
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: black;
@@ -23,12 +27,20 @@ header a {
 
 header {
   padding: 0 20px;
+<<<<<<< Updated upstream
   background-image: #86b07f;
+=======
+  background-color: #367c2b;
+>>>>>>> Stashed changes
   height: 60px;
   display: flex;
   justify-content: space-between;
   border: 2px solid black;
+<<<<<<< Updated upstream
   box-shadow: 0 0 10px 0 #ffff00;
+=======
+  box-shadow: 0 0 10px 0 black;
+>>>>>>> Stashed changes
 }
 
 #brand {
@@ -39,8 +51,12 @@ header {
 }
 
 #brand a {
+<<<<<<< Updated upstream
   color: #000;
   text-shadow: #808080 0 0 10px;
+=======
+  color: black;
+>>>>>>> Stashed changes
 }
 
 ul {
@@ -52,8 +68,12 @@ ul {
 }
 
 ul a {
+<<<<<<< Updated upstream
   color: #000;
   text-shadow: #808080 0 0 10px;
+=======
+  color: black;
+>>>>>>> Stashed changes
 }
 
 ul li {
@@ -72,14 +92,22 @@ ul li:hover {
   top: 50px;
   right: 0;
   height: calc(100vh - 50px);
+<<<<<<< Updated upstream
   width: 50%;
+=======
+  width: 100%;
+>>>>>>> Stashed changes
   background: white;
   border: 3px solid gold;
   text-decoration-line: underline overline;
   z-index: 100;
   transition: 0.5s;
+<<<<<<< Updated upstream
   text-shadow: #808080 0 0 10px;
   
+=======
+  text-shadow: #367c2b 0 0 10px;
+>>>>>>> Stashed changes
 }
 
 .open .mobile-menu {
@@ -88,14 +116,25 @@ ul li:hover {
   align-items: end;
   justify-content: flex-start;
   height: 20vh;
+<<<<<<< Updated upstream
   width: 30% !important;
   background: white;
   border: 3px solid gold;
+=======
+  background: #86b07f;
+  border: 3px solid gold;
+  column-gap: normal;
+>>>>>>> Stashed changes
   z-index: 100;
   transition: 0.5s;
   overflow: hidden;
   padding: 10px;
+<<<<<<< Updated upstream
   box-shadow: 0 0 10px 0 #808080;
+=======
+  box-shadow: 0 0 10px 0 black;
+
+>>>>>>> Stashed changes
 }
 
 .mobile-menu li {
@@ -104,10 +143,13 @@ ul li:hover {
   text-align: right;
   font-size: 20px;
   font-weight: bold;
+<<<<<<< Updated upstream
   display: grid !important;
   grid-template-columns: auto;
   grid-template-rows: 40px;
   gap: 10px;
+=======
+>>>>>>> Stashed changes
 }
 
 #hamburger-icon {
